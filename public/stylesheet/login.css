@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+
+body{
+    font-family: 'Lato', sans-serif;
+}
+
+h1{
+    color: #0f1419;
+    font-weight: 900;
+    font-size: 2.3rem;
+}
+
+ul{
+    list-style-type: none;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+}
+
+.login-content{
+  flex-direction: column;
+  align-items: center;
+  padding: 5rem;
+  display:flex;
+
+}
+
+
+.submit-btn{
+  width: 26rem;
+  height: 3.3rem;
+  border-radius: 10vw;
+  font-size: 1rem;
+  text-decoration: none;
+  font-weight: 700;
+  border: 1px solid #1da1f2;
+  background-color: #1da1f2;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+
+.input-fields{
+    width: 26rem;
+    height: 3.3rem;
+    border: 2px solid #1da1f2;
+    background-color: white;
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+.email{
+    margin-bottom: 20px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    left: 20px;
+}
+.submit-btn:hover{
+    background: #1f94dd;
+}
+
+.password{
+    margin-bottom: 20px;
+}
+
+
+.small-bird{
+width: 3.5rem;
+fill: #1da1f2;    
+}
